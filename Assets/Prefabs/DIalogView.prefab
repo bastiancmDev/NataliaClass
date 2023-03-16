@@ -40,7 +40,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -16, y: 0}
+  m_AnchoredPosition: {x: -21, y: 0}
   m_SizeDelta: {x: -684.1342, y: -302.9446}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &655403543650169652
@@ -533,7 +533,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -5, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5449084797288501639
@@ -587,7 +587,7 @@ GameObject:
   - component: {fileID: 5449084797697047296}
   - component: {fileID: 5449084797697047297}
   - component: {fileID: 4089125034478808919}
-  - component: {fileID: 2007507309217067978}
+  - component: {fileID: 7658922341428919750}
   m_Layer: 5
   m_Name: DIalogView
   m_TagString: Untagged
@@ -692,7 +692,7 @@ MonoBehaviour:
   Title: {fileID: 2670117262956946539}
   Description: {fileID: 5857542378032285911}
   Imagen: {fileID: 187594565632999433}
---- !u!114 &2007507309217067978
+--- !u!114 &7658922341428919750
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
