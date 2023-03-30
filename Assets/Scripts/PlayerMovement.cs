@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     public float horizontalMove;
+    public GameObject ModelObject;
     public float verticalMove;
     public CharacterController player;
     public float playerSpeed = 4.0F;
@@ -26,16 +27,20 @@ public class PlayerMovement : MonoBehaviour
     {
         horizontalMove = Input.GetAxis("Horizontal");
         verticalMove = Input.GetAxis("Vertical");
+        
 
         playerInput = new Vector3(horizontalMove, 0, verticalMove);
+       
         playerInput = Vector3.ClampMagnitude(playerInput, 1);
 
         camDirection();
 
         movePlayer = playerInput.x * camRight + playerInput.z * camForward;
-        player.transform.LookAt(player.transform.position + movePlayer);
+        
 
         player.Move(playerInput * playerSpeed * Time.deltaTime);
+
+        ModelObject.transform.forward = player.velocity ;
 
 
     }
