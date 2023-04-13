@@ -45,6 +45,8 @@ public class PlayerMovemento : MonoBehaviour
 
     }
 
+    
+
     void camDirection()
     {
         camForward = mainCam.transform.forward;
